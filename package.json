@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:smoke":"cypress run --env grep=\"Smoke\"",
+    "test:tag:smoke":"cypress run --env grepTags=\"Smoke\"",
+    "test:regression":"cypress run --env grep=\"Regression\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/shankar0001/CypressPOMAutomation#readme",
   "devDependencies": {
+    "@cypress/grep": "^3.1.5",
     "cypress": "^12.10.0"
   }
 }
