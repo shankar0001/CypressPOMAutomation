@@ -1,0 +1,22 @@
+{
+  "name": "cypresspomautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankar0001/CypressPOMAutomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shankar0001/CypressPOMAutomation/issues"
+  },
+  "homepage": "https://github.com/shankar0001/CypressPOMAutomation#readme",
+  "devDependencies": {
+    "cypress": "^12.10.0"
+  }
+}
